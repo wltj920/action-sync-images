@@ -22,7 +22,7 @@ jobs:
       with:
         registry: registry.cn-chengdu.aliyuncs.com
         username: wltj920
-        password: "#Runner575"
+        password: '#Runner575'
         logout: false
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
