@@ -29,4 +29,5 @@ jobs:
       run: |
         skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-chengdu.aliyuncs.com/wltj920/sun-panel:1.4.0
         skopeo copy docker://docker.io/bitnami/elasticsearch:8.12.0 docker://registry.cn-chengdu.aliyuncs.com/wltj920/elasticsearch:8.12.0
+        skopeo copy docker://docker.io/library/nginx:latest docker://registry.cn-chengdu.aliyuncs.com/wltj920/nginx:latest
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称 作者：全栈工程师修炼指南 https://www.bilibili.com/read/cv35192993/ 出处：bilibili
